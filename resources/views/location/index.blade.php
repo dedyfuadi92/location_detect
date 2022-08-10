@@ -26,6 +26,7 @@
             city : {{ isset($detailss->city) ? $detailss->city : '' }}<br>
             region : {{ isset($detailss->region) ? $detailss->region : '' }}<br>
             country : {{ isset($detailss->country) ? $detailss->country : '' }}<br>
+            timezone : {{ isset($detailss->timezone) ? $detailss->timezone : '' }}<br>
             phone : {{ isset($detailss->phone) ? $detailss->phone : '' }}
         </p>
     </div>
